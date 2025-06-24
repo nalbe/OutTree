@@ -3,9 +3,9 @@
 {
         /* Overview */
     /*
-        OutTree is an iterative, forest-like container designed for hierarchical data management without a common root.
-        It provides top-level element access via begin() and end() methods through traversal wrappers,
-        supporting flat (sibling) and pre-order (depth-first) traversal modes.
+        OutTree is an iterative, forest-like container designed for hierarchical data management
+        without a common root. It provides top-level element access via begin() and end() methods
+        through traversal wrappers, supporting flat (sibling) and pre-order (depth-first) traversal modes.
 
         The choice of iterator traversal policy significantly impacts the scope of operations.
         Utilizing a flat iterator restricts operations to sibling nodes within the current subtree. (supports deep operations)
